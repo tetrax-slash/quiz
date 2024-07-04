@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Quiz App</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .question-container {
+            margin-bottom: 20px;
+        }
+        .pagination {
+            margin-top: 20px;
+        }
+        #timer {
+            font-size: 1.2em;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Dynamic Quiz App</h1>
+    <div id="timer"></div>
+    <div id="quiz-container"></div>
+    <div class="pagination">
+        <button id="prev">Previous</button>
+        <button id="next">Next</button>
+        <button id="submit" style="display: none;">Submit Quiz</button>
+    </div>
+
+    <script src="quiz.js"></script>
+</body>
+</html>
